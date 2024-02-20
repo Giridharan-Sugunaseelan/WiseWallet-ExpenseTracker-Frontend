@@ -1,0 +1,58 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 35px 20px 25px 30px;
+  font-size: 30px;
+  text-align: left;
+  border: 1px solid hsl(0, 0%, 85%);
+  border-radius: 25px;
+  font-family: "Rubik", sans-serif;
+  color: hsl(0, 0%, 20%);
+  cursor: pointer;
+}
+
+.textAndData {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+}
+
+.data {
+  margin-top: 0px;
+}
+
+.icon {
+  align-self: flex-end;
+  margin-right: 30px;
+  margin-bottom: 0px;
+}
+
+.icon i {
+  margin: 0px;
+}
+
+.balance {
+  grid-area: 1/2/4/4;
+}
+
+.food {
+  grid-area: 1/4/4/6;
+}
+
+.shopping {
+  grid-area: 1/6/4/8;
+}
+
+.health {
+  grid-area: 4/2/7/4;
+}
+
+.travel {
+  grid-area: 4/4/7/6;
+}
+
+.savings {
+  grid-area: 4/6/7/8;
+}

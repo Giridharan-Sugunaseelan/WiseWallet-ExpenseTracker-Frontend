@@ -1,0 +1,47 @@
+/* TransactionComponent.module.css */
+
+.transactionContainer {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.table-responsive {
+  flex-grow: 1;
+  overflow-y: auto;
+}
+
+.table-bordered {
+  width: 100%;
+}
+
+.add {
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  font-size: 50px;
+  font-weight: 100;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.addButton {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.deleteButton {
+  border: 1px solid hsl(0, 0%, 85%);
+  background-color: white;
+  border-radius: 10px;
+  padding: 5px 20px;
+  background-color: hsl(0, 100%, 60%);
+}

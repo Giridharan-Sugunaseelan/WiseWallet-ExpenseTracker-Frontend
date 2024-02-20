@@ -1,0 +1,45 @@
+.box {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid hsla(0, 0%, 50%, 0.2);
+  border-radius: 25px;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 700px;
+  height: 300px;
+  padding: 50px;
+  margin-top: 250px;
+}
+
+.details {
+  list-style: none;
+  font-size: 20px;
+}
+
+.resetPasswordContainer {
+  margin: 1px solid;
+}
+
+.resetPasswordContainer input {
+  margin-bottom: 20px;
+}
+
+.reset {
+  background-color: rgb(33, 37, 41);
+  color: white;
+  width: 100%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+}
+
+.reset:hover {
+  color: gold;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+}
+.fields li {
+  margin: 5px;
+}

@@ -1,0 +1,14 @@
+.header {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: "Rubik", sans-serif;
+}
+
+.header table th {
+    background-color: black;
+}
+
+.table-container th.text-center {
+    background-color: black;
+    color: white;
+}

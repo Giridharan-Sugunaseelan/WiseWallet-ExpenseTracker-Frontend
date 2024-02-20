@@ -1,0 +1,56 @@
+.gridContainer {
+  display: grid;
+  width: auto;
+  height: 100vh;
+  gap: 25px;
+  grid-template-columns: repeat(11, 0.5fr);
+  grid-template-rows: repeat(15, 0.5fr);
+  grid-auto-flow: column;
+  margin: 20px;
+}
+
+.firstRow {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: 1/2/4/8;
+  justify-content: space-between;
+}
+
+.piechart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid hsl(0, 0%, 85%);
+  border-radius: 25px;
+  grid-area: 1/8/7/11;
+  font-size: 25px;
+  border-radius: 25px;
+}
+
+.recentTransactions {
+  grid-area: 7/2/13/8;
+  border: 1px solid hsl(0, 0%, 85%);
+  border-radius: 25px;
+  height: auto;
+}
+
+.recentTransactions table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  border-radius: 25px;
+}
+
+.recentTransactions table th,
+.recentTransactions table td {
+  padding: 10px;
+}
+
+.recentTransactions table th {
+  background-color: #f2f2f2;
+}
+
+.recentTransactions table tr {
+  border: 1px solid hsl(60, 6%, 87%);
+  border-radius: 25px;
+}
